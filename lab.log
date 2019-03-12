@@ -1,0 +1,227 @@
+2018-10-22 21:32:15.286 [main] INFO  a00123456.Lab7 - Start: 2018-10-23T04:32:14.466749Z
+2018-10-22 21:32:15.291 [main] DEBUG a00123456.db.Database - Loading database properties from db.properties
+2018-10-22 21:32:15.294 [main] DEBUG a00123456.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2018-10-22 21:32:15.299 [main] ERROR a00123456.Lab7 - java.sql.SQLException: java.lang.ClassNotFoundException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2018-10-22 21:32:15.299 [main] INFO  a00123456.Lab7 - End: 2018-10-23T04:32:15.299626Z
+2018-10-22 21:32:15.300 [main] INFO  a00123456.Lab7 - Duration: 832 ms
+2018-10-22 21:34:52.128 [main] INFO  a00123456.Lab7 - Start: 2018-10-23T04:34:51.280917Z
+2018-10-22 21:34:52.133 [main] DEBUG a00123456.db.Database - Loading database properties from db.properties
+2018-10-22 21:34:52.136 [main] DEBUG a00123456.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2018-10-22 21:34:52.272 [main] DEBUG a00123456.db.Database - Driver loaded
+2018-10-22 21:34:52.272 [main] DEBUG a00123456.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2018-10-22 21:34:52.273 [main] DEBUG a00123456.db.Database - DB USER=javastudent
+2018-10-22 21:34:52.274 [main] DEBUG a00123456.db.Database - DB URL=compjava
+2018-10-22 21:34:52.805 [main] DEBUG a00123456.db.Database - Database connected
+2018-10-22 21:34:52.939 [main] DEBUG a00123456.db.Database - Found the target table named: A00123456_Customers
+2018-10-22 21:34:52.960 [main] INFO  a00123456.CustomerDaoTester - Getting the customer IDs
+2018-10-22 21:34:52.961 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2018-10-22 21:34:52.977 [main] ERROR a00123456.CustomerDaoTester - Invalid column name 'id'.
+2018-10-22 21:34:52.978 [main] INFO  a00123456.Lab7 - End: 2018-10-23T04:34:52.977934Z
+2018-10-22 21:34:52.978 [main] INFO  a00123456.Lab7 - Duration: 1697 ms
+2019-02-09 14:37:58.364 [main] INFO  a00123456.Lab7 - Start: 2019-02-09T22:37:57.408872Z
+2019-02-09 14:37:58.369 [main] DEBUG a00123456.db.Database - Loading database properties from db.properties
+2019-02-09 14:37:58.374 [main] DEBUG a00123456.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2019-02-09 14:37:58.540 [main] DEBUG a00123456.db.Database - Driver loaded
+2019-02-09 14:37:58.540 [main] DEBUG a00123456.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2019-02-09 14:37:58.541 [main] DEBUG a00123456.db.Database - DB USER=javastudent
+2019-02-09 14:37:58.541 [main] DEBUG a00123456.db.Database - DB URL=compjava
+2019-02-09 14:37:59.220 [main] DEBUG a00123456.db.Database - Database connected
+2019-02-09 14:37:59.437 [main] DEBUG a00123456.db.Database - Found the target table named: A00123456_Customers
+2019-02-09 14:37:59.450 [main] INFO  a00123456.CustomerDaoTester - Getting the customer IDs
+2019-02-09 14:37:59.453 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2019-02-09 14:37:59.474 [main] DEBUG a00123456.data.customer.CustomerDao - Loaded 24 customer IDs from the database
+2019-02-09 14:37:59.474 [main] INFO  a00123456.CustomerDaoTester - Customer IDs: [1175, 1399, 1739, 3897, 4188, 5017, 5029, 5279, 5843, 5969, 6324, 6357, 6368, 6494, 6713, 6990, 7525, 7849, 8479, 8626, 9292, 9352, 9475, 9588]
+2019-02-09 14:37:59.477 [main] INFO  a00123456.CustomerDaoTester - 1175
+2019-02-09 14:37:59.478 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1175
+2019-02-09 14:37:59.512 [main] INFO  a00123456.CustomerDaoTester - Customer [id=1175, firstName=Jescie, lastName=Mcbride, street=Ap #944-4855 Erat, St., city=Santa Juana, postalCode=58209, phone=725-538-4828, emailAddress=quis.urna@semperauctor.co.uk, joinedDate=2008-01-17]
+2019-02-09 14:37:59.513 [main] INFO  a00123456.CustomerDaoTester - 1399
+2019-02-09 14:37:59.513 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1399
+2019-02-09 14:37:59.533 [main] INFO  a00123456.CustomerDaoTester - Customer [id=1399, firstName=Bryar, lastName=Lewis, street=552-8294 Egestas St., city=Serampore, postalCode=C2T 2WF, phone=905432-1638, emailAddress=dolor@atarcuVestibulum.co.uk, joinedDate=2004-08-20]
+2019-02-09 14:37:59.534 [main] INFO  a00123456.CustomerDaoTester - 1739
+2019-02-09 14:37:59.534 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1739
+2019-02-09 14:37:59.550 [main] INFO  a00123456.CustomerDaoTester - Customer [id=1739, firstName=Kaitlin, lastName=Oneil, street=P.O. Box 329, 9608 Tortor Road, city=Diegem, postalCode=64447, phone=834-890-3976, emailAddress=enim.sit.amet@sedlibero.edu, joinedDate=2014-03-12]
+2019-02-09 14:37:59.551 [main] INFO  a00123456.CustomerDaoTester - 3897
+2019-02-09 14:37:59.552 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3897
+2019-02-09 14:37:59.569 [main] INFO  a00123456.CustomerDaoTester - Customer [id=3897, firstName=Uma, lastName=Garrison, street=9226 Ut Rd., city=Ortacesus, postalCode=7773, phone=218-162-9055, emailAddress=enim@lorem.co.uk, joinedDate=2003-08-27]
+2019-02-09 14:37:59.570 [main] INFO  a00123456.CustomerDaoTester - 4188
+2019-02-09 14:37:59.570 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4188
+2019-02-09 14:37:59.587 [main] INFO  a00123456.CustomerDaoTester - Customer [id=4188, firstName=Althea, lastName=Clay, street=532-8277 Egestas Avenue, city=Achalpur, postalCode=98691, phone=238-343-3229, emailAddress=libero@dolorelit.com, joinedDate=2015-09-16]
+2019-02-09 14:37:59.588 [main] INFO  a00123456.CustomerDaoTester - 5017
+2019-02-09 14:37:59.588 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5017
+2019-02-09 14:37:59.608 [main] INFO  a00123456.CustomerDaoTester - Customer [id=5017, firstName=Serena, lastName=Wiley, street=1110 Porttitor St., city=Motta Sant'Anastasia, postalCode=G72 7NL, phone=482-289-3232, emailAddress=mauris.Integer@Suspendissetristique.net, joinedDate=2011-09-03]
+2019-02-09 14:37:59.608 [main] INFO  a00123456.CustomerDaoTester - 5029
+2019-02-09 14:37:59.609 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5029
+2019-02-09 14:37:59.626 [main] INFO  a00123456.CustomerDaoTester - Customer [id=5029, firstName=Alice, lastName=Patrick, street=P.O. Box 235, 3303 Felis St., city=Sagrada Familia, postalCode=4912, phone=223-632-2361, emailAddress=nascetur@turpis.com, joinedDate=2007-08-01]
+2019-02-09 14:37:59.627 [main] INFO  a00123456.CustomerDaoTester - 5279
+2019-02-09 14:37:59.628 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5279
+2019-02-09 14:37:59.644 [main] INFO  a00123456.CustomerDaoTester - Customer [id=5279, firstName=Zephr, lastName=Dean, street=1991 Lectus. Rd., city=Bozeman, postalCode=6755, phone=759-8055996, emailAddress=Mauris.molestie@fermentumrisusat.net, joinedDate=2018-06-14]
+2019-02-09 14:37:59.644 [main] INFO  a00123456.CustomerDaoTester - 5843
+2019-02-09 14:37:59.645 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5843
+2019-02-09 14:37:59.661 [main] INFO  a00123456.CustomerDaoTester - Customer [id=5843, firstName=Ciara, lastName=Merritt, street=189 Magna. Rd., city=Nocciano, postalCode=2879 JT, phone=541-125-4966, emailAddress=Integer@dictummi.net, joinedDate=2006-03-21]
+2019-02-09 14:37:59.663 [main] INFO  a00123456.CustomerDaoTester - 5969
+2019-02-09 14:37:59.664 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5969
+2019-02-09 14:37:59.678 [main] INFO  a00123456.CustomerDaoTester - Customer [id=5969, firstName=Shaine, lastName=Bush, street=9901 Mollis Street, city=Blind River, postalCode=KX0 5XK, phone=892-9096259, emailAddress=elit@pede.com, joinedDate=2009-08-05]
+2019-02-09 14:37:59.679 [main] INFO  a00123456.CustomerDaoTester - 6324
+2019-02-09 14:37:59.680 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 6324
+2019-02-09 14:37:59.696 [main] INFO  a00123456.CustomerDaoTester - Customer [id=6324, firstName=Lucy, lastName=Hodges, street=3098129 Vulputate, St., city=Kaduna, postalCode=C4T 3K8, phone=836-350-1911, emailAddress=lacus.varius@nonvestibulumnec.org, joinedDate=2009-03-24]
+2019-02-09 14:37:59.697 [main] INFO  a00123456.CustomerDaoTester - 6357
+2019-02-09 14:37:59.698 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 6357
+2019-02-09 14:37:59.713 [main] INFO  a00123456.CustomerDaoTester - Customer [id=6357, firstName=Imogene, lastName=Jimenez, street=Ap #330-6937 Nunc Rd., city=Westmeerbeek, postalCode=7785, phone=161-257-3712, emailAddress=magna.tellus@dictumProin.org, joinedDate=2004-11-17]
+2019-02-09 14:37:59.713 [main] INFO  a00123456.CustomerDaoTester - 6368
+2019-02-09 14:37:59.714 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 6368
+2019-02-09 14:37:59.730 [main] INFO  a00123456.CustomerDaoTester - Customer [id=6368, firstName=Roary, lastName=Puckett, street=P.O. Box 652, 135 Ornare, Avenue, city=Sint-Kwintens-Lennik, postalCode=105321, phone=167-2029815, emailAddress=sem@aliquamenimnec.org, joinedDate=2003-10-29]
+2019-02-09 14:37:59.731 [main] INFO  a00123456.CustomerDaoTester - 6494
+2019-02-09 14:37:59.731 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 6494
+2019-02-09 14:37:59.748 [main] INFO  a00123456.CustomerDaoTester - Customer [id=6494, firstName=Ivy, lastName=Dunn, street=P.O. Box 195, 4490 Pellentesque Avenue, city=Feilding, postalCode=2824, phone=884-129-5573, emailAddress=sociosqu.ad@luctussit.com, joinedDate=2012-03-03]
+2019-02-09 14:37:59.749 [main] INFO  a00123456.CustomerDaoTester - 6713
+2019-02-09 14:37:59.750 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 6713
+2019-02-09 14:37:59.766 [main] INFO  a00123456.CustomerDaoTester - Customer [id=6713, firstName=Dana, lastName=Reid, street=Ap #930-5716 Vitae Street, city=Coutisse, postalCode=752581, phone=790-7070537, emailAddress=lectus@quisaccumsan.co.uk, joinedDate=2010-08-20]
+2019-02-09 14:37:59.767 [main] INFO  a00123456.CustomerDaoTester - 6990
+2019-02-09 14:37:59.767 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 6990
+2019-02-09 14:37:59.784 [main] INFO  a00123456.CustomerDaoTester - Customer [id=6990, firstName=Ginger, lastName=Bush, street=Ap #883-6921 Vel Avenue, city=Alma, postalCode=3206 HY, phone=309913-6223, emailAddress=magna@tellus.com, joinedDate=2011-10-09]
+2019-02-09 14:37:59.785 [main] INFO  a00123456.CustomerDaoTester - 7525
+2019-02-09 14:37:59.785 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 7525
+2019-02-09 14:37:59.802 [main] INFO  a00123456.CustomerDaoTester - Customer [id=7525, firstName=Ora, lastName=Nunez, street=8717 Ac Rd., city=Township of Minden Hills, postalCode=6780, phone=526-175-7582, emailAddress=elit.sed@necimperdietnec.ca, joinedDate=2013-06-21]
+2019-02-09 14:37:59.802 [main] INFO  a00123456.CustomerDaoTester - 7849
+2019-02-09 14:37:59.803 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 7849
+2019-02-09 14:37:59.820 [main] INFO  a00123456.CustomerDaoTester - Customer [id=7849, firstName=Rhonda, lastName=Oconnor, street=3063 Eleifend Rd., city=Marchihue, postalCode=67963, phone=718-779-2797, emailAddress=Quisque.imperdiet@enimmi.org, joinedDate=2017-08-07]
+2019-02-09 14:37:59.821 [main] INFO  a00123456.CustomerDaoTester - 8479
+2019-02-09 14:37:59.821 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 8479
+2019-02-09 14:37:59.838 [main] INFO  a00123456.CustomerDaoTester - Customer [id=8479, firstName=Montana, lastName=Carr, street=P.O. Box 860, 8778 Molestie Street, city=Casper, postalCode=26477, phone=886-819-0556, emailAddress=Etiam.bibendum@quam.edu, joinedDate=2011-04-14]
+2019-02-09 14:37:59.838 [main] INFO  a00123456.CustomerDaoTester - 8626
+2019-02-09 14:37:59.839 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 8626
+2019-02-09 14:37:59.857 [main] INFO  a00123456.CustomerDaoTester - Customer [id=8626, firstName=Mechelle, lastName=Gutierrez, street=517-8533 Semper St., city=Gatineau, postalCode=705090, phone=776-427-8269, emailAddress=cursus.purus.Nullam@euismodmauris.net, joinedDate=2018-06-17]
+2019-02-09 14:37:59.857 [main] INFO  a00123456.CustomerDaoTester - 9292
+2019-02-09 14:37:59.858 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 9292
+2019-02-09 14:37:59.875 [main] INFO  a00123456.CustomerDaoTester - Customer [id=9292, firstName=Sade, lastName=Golden, street=929-7224 Scelerisque St., city=Chiniot, postalCode=0841 CQ, phone=407586-6535, emailAddress=Duis.cursus.diam@justo.co.uk, joinedDate=2007-10-07]
+2019-02-09 14:37:59.875 [main] INFO  a00123456.CustomerDaoTester - 9352
+2019-02-09 14:37:59.875 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 9352
+2019-02-09 14:37:59.893 [main] INFO  a00123456.CustomerDaoTester - Customer [id=9352, firstName=Jane, lastName=Contreras, street=Ap #639-6936 Eu, St., city=Fernie, postalCode=946235, phone=270-763-1794, emailAddress=euismod@Namligula.co.uk, joinedDate=2016-08-19]
+2019-02-09 14:37:59.894 [main] INFO  a00123456.CustomerDaoTester - 9475
+2019-02-09 14:37:59.895 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 9475
+2019-02-09 14:37:59.911 [main] INFO  a00123456.CustomerDaoTester - Customer [id=9475, firstName=Roary, lastName=Haney, street=P.O. Box 562, 799 Suspendisse Av., city=Brive-la-Gaillarde, postalCode=4890, phone=868-738-1588, emailAddress=libero.ligula@quispedeSuspendisse.edu, joinedDate=2013-06-24]
+2019-02-09 14:37:59.911 [main] INFO  a00123456.CustomerDaoTester - 9588
+2019-02-09 14:37:59.911 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 9588
+2019-02-09 14:37:59.928 [main] INFO  a00123456.CustomerDaoTester - Customer [id=9588, firstName=Alea, lastName=Herman, street=P.O. Box 284, 9613 Vel Rd., city=Villers-lez-Heest, postalCode=81431, phone=588-266-3604, emailAddress=ultricies.adipiscing.enim@vitae.edu, joinedDate=2008-08-03]
+2019-02-09 14:37:59.946 [main] INFO  a00123456.CustomerDaoTester - 24
+2019-02-09 14:37:59.946 [main] INFO  a00123456.Lab7 - End: 2019-02-09T22:37:59.946742Z
+2019-02-09 14:37:59.947 [main] INFO  a00123456.Lab7 - Duration: 2537 ms
+2019-02-09 14:38:52.208 [main] INFO  a00123456.Lab7 - Start: 2019-02-09T22:38:51.337275Z
+2019-02-09 14:38:52.214 [main] DEBUG a00123456.db.Database - Loading database properties from db.properties
+2019-02-09 14:38:52.220 [main] DEBUG a00123456.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2019-02-09 14:38:52.376 [main] DEBUG a00123456.db.Database - Driver loaded
+2019-02-09 14:38:52.377 [main] DEBUG a00123456.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2019-02-09 14:38:52.377 [main] DEBUG a00123456.db.Database - DB USER=javastudent
+2019-02-09 14:38:52.377 [main] DEBUG a00123456.db.Database - DB URL=compjava
+2019-02-09 14:38:52.843 [main] DEBUG a00123456.db.Database - Database connected
+2019-02-09 14:38:53.042 [main] DEBUG a00123456.db.Database - Found the target table named: A00123456_Customers
+2019-02-09 14:38:53.055 [main] INFO  a00123456.CustomerDaoTester - Getting the customer IDs
+2019-02-09 14:38:53.056 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2019-02-09 14:38:53.075 [main] DEBUG a00123456.data.customer.CustomerDao - Loaded 24 customer IDs from the database
+2019-02-09 14:38:53.076 [main] INFO  a00123456.CustomerDaoTester - Customer IDs: [1175, 1399, 1739, 3897, 4188, 5017, 5029, 5279, 5843, 5969, 6324, 6357, 6368, 6494, 6713, 6990, 7525, 7849, 8479, 8626, 9292, 9352, 9475, 9588]
+2019-02-09 14:38:53.077 [main] INFO  a00123456.CustomerDaoTester - 1175
+2019-02-09 14:38:53.077 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1175
+2019-02-09 14:38:53.113 [main] INFO  a00123456.CustomerDaoTester - Customer [id=1175, firstName=Jescie, lastName=Mcbride, street=Ap #944-4855 Erat, St., city=Santa Juana, postalCode=58209, phone=725-538-4828, emailAddress=quis.urna@semperauctor.co.uk, joinedDate=2008-01-17]
+2019-02-09 14:38:53.114 [main] INFO  a00123456.CustomerDaoTester - 1399
+2019-02-09 14:38:53.114 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1399
+2019-02-09 14:38:53.129 [main] INFO  a00123456.CustomerDaoTester - Customer [id=1399, firstName=Bryar, lastName=Lewis, street=552-8294 Egestas St., city=Serampore, postalCode=C2T 2WF, phone=905432-1638, emailAddress=dolor@atarcuVestibulum.co.uk, joinedDate=2004-08-20]
+2019-02-09 14:38:53.129 [main] INFO  a00123456.CustomerDaoTester - 1739
+2019-02-09 14:38:53.129 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1739
+2019-02-09 14:38:53.147 [main] INFO  a00123456.CustomerDaoTester - Customer [id=1739, firstName=Kaitlin, lastName=Oneil, street=P.O. Box 329, 9608 Tortor Road, city=Diegem, postalCode=64447, phone=834-890-3976, emailAddress=enim.sit.amet@sedlibero.edu, joinedDate=2014-03-12]
+2019-02-09 14:38:53.147 [main] INFO  a00123456.CustomerDaoTester - 3897
+2019-02-09 14:38:53.148 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3897
+2019-02-09 14:38:53.167 [main] INFO  a00123456.CustomerDaoTester - Customer [id=3897, firstName=Uma, lastName=Garrison, street=9226 Ut Rd., city=Ortacesus, postalCode=7773, phone=218-162-9055, emailAddress=enim@lorem.co.uk, joinedDate=2003-08-27]
+2019-02-09 14:38:53.167 [main] INFO  a00123456.CustomerDaoTester - 4188
+2019-02-09 14:38:53.168 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4188
+2019-02-09 14:38:53.185 [main] INFO  a00123456.CustomerDaoTester - Customer [id=4188, firstName=Althea, lastName=Clay, street=532-8277 Egestas Avenue, city=Achalpur, postalCode=98691, phone=238-343-3229, emailAddress=libero@dolorelit.com, joinedDate=2015-09-16]
+2019-02-09 14:38:53.185 [main] INFO  a00123456.CustomerDaoTester - 5017
+2019-02-09 14:38:53.185 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5017
+2019-02-09 14:38:53.202 [main] INFO  a00123456.CustomerDaoTester - Customer [id=5017, firstName=Serena, lastName=Wiley, street=1110 Porttitor St., city=Motta Sant'Anastasia, postalCode=G72 7NL, phone=482-289-3232, emailAddress=mauris.Integer@Suspendissetristique.net, joinedDate=2011-09-03]
+2019-02-09 14:38:53.203 [main] INFO  a00123456.CustomerDaoTester - 5029
+2019-02-09 14:38:53.203 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5029
+2019-02-09 14:38:53.222 [main] INFO  a00123456.CustomerDaoTester - Customer [id=5029, firstName=Alice, lastName=Patrick, street=P.O. Box 235, 3303 Felis St., city=Sagrada Familia, postalCode=4912, phone=223-632-2361, emailAddress=nascetur@turpis.com, joinedDate=2007-08-01]
+2019-02-09 14:38:53.222 [main] INFO  a00123456.CustomerDaoTester - 5279
+2019-02-09 14:38:53.223 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5279
+2019-02-09 14:38:53.241 [main] INFO  a00123456.CustomerDaoTester - Customer [id=5279, firstName=Zephr, lastName=Dean, street=1991 Lectus. Rd., city=Bozeman, postalCode=6755, phone=759-8055996, emailAddress=Mauris.molestie@fermentumrisusat.net, joinedDate=2018-06-14]
+2019-02-09 14:38:53.241 [main] INFO  a00123456.CustomerDaoTester - 5843
+2019-02-09 14:38:53.241 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5843
+2019-02-09 14:38:53.260 [main] INFO  a00123456.CustomerDaoTester - Customer [id=5843, firstName=Ciara, lastName=Merritt, street=189 Magna. Rd., city=Nocciano, postalCode=2879 JT, phone=541-125-4966, emailAddress=Integer@dictummi.net, joinedDate=2006-03-21]
+2019-02-09 14:38:53.261 [main] INFO  a00123456.CustomerDaoTester - 5969
+2019-02-09 14:38:53.261 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5969
+2019-02-09 14:38:53.278 [main] INFO  a00123456.CustomerDaoTester - Customer [id=5969, firstName=Shaine, lastName=Bush, street=9901 Mollis Street, city=Blind River, postalCode=KX0 5XK, phone=892-9096259, emailAddress=elit@pede.com, joinedDate=2009-08-05]
+2019-02-09 14:38:53.278 [main] INFO  a00123456.CustomerDaoTester - 6324
+2019-02-09 14:38:53.279 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 6324
+2019-02-09 14:38:53.305 [main] INFO  a00123456.CustomerDaoTester - Customer [id=6324, firstName=Lucy, lastName=Hodges, street=3098129 Vulputate, St., city=Kaduna, postalCode=C4T 3K8, phone=836-350-1911, emailAddress=lacus.varius@nonvestibulumnec.org, joinedDate=2009-03-24]
+2019-02-09 14:38:53.305 [main] INFO  a00123456.CustomerDaoTester - 6357
+2019-02-09 14:38:53.306 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 6357
+2019-02-09 14:38:53.324 [main] INFO  a00123456.CustomerDaoTester - Customer [id=6357, firstName=Imogene, lastName=Jimenez, street=Ap #330-6937 Nunc Rd., city=Westmeerbeek, postalCode=7785, phone=161-257-3712, emailAddress=magna.tellus@dictumProin.org, joinedDate=2004-11-17]
+2019-02-09 14:38:53.325 [main] INFO  a00123456.CustomerDaoTester - 6368
+2019-02-09 14:38:53.325 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 6368
+2019-02-09 14:38:53.343 [main] INFO  a00123456.CustomerDaoTester - Customer [id=6368, firstName=Roary, lastName=Puckett, street=P.O. Box 652, 135 Ornare, Avenue, city=Sint-Kwintens-Lennik, postalCode=105321, phone=167-2029815, emailAddress=sem@aliquamenimnec.org, joinedDate=2003-10-29]
+2019-02-09 14:38:53.343 [main] INFO  a00123456.CustomerDaoTester - 6494
+2019-02-09 14:38:53.343 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 6494
+2019-02-09 14:38:53.360 [main] INFO  a00123456.CustomerDaoTester - Customer [id=6494, firstName=Ivy, lastName=Dunn, street=P.O. Box 195, 4490 Pellentesque Avenue, city=Feilding, postalCode=2824, phone=884-129-5573, emailAddress=sociosqu.ad@luctussit.com, joinedDate=2012-03-03]
+2019-02-09 14:38:53.360 [main] INFO  a00123456.CustomerDaoTester - 6713
+2019-02-09 14:38:53.361 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 6713
+2019-02-09 14:38:53.378 [main] INFO  a00123456.CustomerDaoTester - Customer [id=6713, firstName=Dana, lastName=Reid, street=Ap #930-5716 Vitae Street, city=Coutisse, postalCode=752581, phone=790-7070537, emailAddress=lectus@quisaccumsan.co.uk, joinedDate=2010-08-20]
+2019-02-09 14:38:53.378 [main] INFO  a00123456.CustomerDaoTester - 6990
+2019-02-09 14:38:53.379 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 6990
+2019-02-09 14:38:53.396 [main] INFO  a00123456.CustomerDaoTester - Customer [id=6990, firstName=Ginger, lastName=Bush, street=Ap #883-6921 Vel Avenue, city=Alma, postalCode=3206 HY, phone=309913-6223, emailAddress=magna@tellus.com, joinedDate=2011-10-09]
+2019-02-09 14:38:53.397 [main] INFO  a00123456.CustomerDaoTester - 7525
+2019-02-09 14:38:53.397 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 7525
+2019-02-09 14:38:53.424 [main] INFO  a00123456.CustomerDaoTester - Customer [id=7525, firstName=Ora, lastName=Nunez, street=8717 Ac Rd., city=Township of Minden Hills, postalCode=6780, phone=526-175-7582, emailAddress=elit.sed@necimperdietnec.ca, joinedDate=2013-06-21]
+2019-02-09 14:38:53.424 [main] INFO  a00123456.CustomerDaoTester - 7849
+2019-02-09 14:38:53.425 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 7849
+2019-02-09 14:38:53.443 [main] INFO  a00123456.CustomerDaoTester - Customer [id=7849, firstName=Rhonda, lastName=Oconnor, street=3063 Eleifend Rd., city=Marchihue, postalCode=67963, phone=718-779-2797, emailAddress=Quisque.imperdiet@enimmi.org, joinedDate=2017-08-07]
+2019-02-09 14:38:53.444 [main] INFO  a00123456.CustomerDaoTester - 8479
+2019-02-09 14:38:53.444 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 8479
+2019-02-09 14:38:53.462 [main] INFO  a00123456.CustomerDaoTester - Customer [id=8479, firstName=Montana, lastName=Carr, street=P.O. Box 860, 8778 Molestie Street, city=Casper, postalCode=26477, phone=886-819-0556, emailAddress=Etiam.bibendum@quam.edu, joinedDate=2011-04-14]
+2019-02-09 14:38:53.462 [main] INFO  a00123456.CustomerDaoTester - 8626
+2019-02-09 14:38:53.463 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 8626
+2019-02-09 14:38:53.481 [main] INFO  a00123456.CustomerDaoTester - Customer [id=8626, firstName=Mechelle, lastName=Gutierrez, street=517-8533 Semper St., city=Gatineau, postalCode=705090, phone=776-427-8269, emailAddress=cursus.purus.Nullam@euismodmauris.net, joinedDate=2018-06-17]
+2019-02-09 14:38:53.481 [main] INFO  a00123456.CustomerDaoTester - 9292
+2019-02-09 14:38:53.482 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 9292
+2019-02-09 14:38:53.500 [main] INFO  a00123456.CustomerDaoTester - Customer [id=9292, firstName=Sade, lastName=Golden, street=929-7224 Scelerisque St., city=Chiniot, postalCode=0841 CQ, phone=407586-6535, emailAddress=Duis.cursus.diam@justo.co.uk, joinedDate=2007-10-07]
+2019-02-09 14:38:53.500 [main] INFO  a00123456.CustomerDaoTester - 9352
+2019-02-09 14:38:53.501 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 9352
+2019-02-09 14:38:53.519 [main] INFO  a00123456.CustomerDaoTester - Customer [id=9352, firstName=Jane, lastName=Contreras, street=Ap #639-6936 Eu, St., city=Fernie, postalCode=946235, phone=270-763-1794, emailAddress=euismod@Namligula.co.uk, joinedDate=2016-08-19]
+2019-02-09 14:38:53.519 [main] INFO  a00123456.CustomerDaoTester - 9475
+2019-02-09 14:38:53.519 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 9475
+2019-02-09 14:38:53.537 [main] INFO  a00123456.CustomerDaoTester - Customer [id=9475, firstName=Roary, lastName=Haney, street=P.O. Box 562, 799 Suspendisse Av., city=Brive-la-Gaillarde, postalCode=4890, phone=868-738-1588, emailAddress=libero.ligula@quispedeSuspendisse.edu, joinedDate=2013-06-24]
+2019-02-09 14:38:53.537 [main] INFO  a00123456.CustomerDaoTester - 9588
+2019-02-09 14:38:53.537 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 9588
+2019-02-09 14:38:53.555 [main] INFO  a00123456.CustomerDaoTester - Customer [id=9588, firstName=Alea, lastName=Herman, street=P.O. Box 284, 9613 Vel Rd., city=Villers-lez-Heest, postalCode=81431, phone=588-266-3604, emailAddress=ultricies.adipiscing.enim@vitae.edu, joinedDate=2008-08-03]
+2019-02-09 14:38:53.572 [main] INFO  a00123456.CustomerDaoTester - 24
+2019-02-09 14:38:53.572 [main] INFO  a00123456.Lab7 - End: 2019-02-09T22:38:53.572770Z
+2019-02-09 14:38:53.573 [main] INFO  a00123456.Lab7 - Duration: 2235 ms
+2019-03-04 20:17:27.860 [main] INFO  a00123456.Lab7 - Start: 2019-03-05T04:17:26.948053Z
+2019-03-04 20:17:27.866 [main] DEBUG a00123456.db.Database - Loading database properties from db.properties
+2019-03-04 20:17:27.870 [main] DEBUG a00123456.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2019-03-04 20:17:28.021 [main] DEBUG a00123456.db.Database - Driver loaded
+2019-03-04 20:17:28.021 [main] DEBUG a00123456.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2019-03-04 20:17:28.021 [main] DEBUG a00123456.db.Database - DB USER=javastudent
+2019-03-04 20:17:28.021 [main] DEBUG a00123456.db.Database - DB URL=compjava
+2019-03-04 20:17:28.541 [main] DEBUG a00123456.db.Database - Database connected
+2019-03-04 20:17:28.784 [main] DEBUG a00123456.db.Database - Found the target table named: A00123456_Customers
+2019-03-04 20:17:28.799 [main] INFO  a00123456.CustomerDaoTester - Getting the customer IDs
+2019-03-04 20:17:28.801 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2019-03-04 20:17:28.819 [main] DEBUG a00123456.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2019-03-04 20:17:28.820 [main] INFO  a00123456.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2019-03-04 20:17:28.821 [main] INFO  a00123456.CustomerDaoTester - 1
+2019-03-04 20:17:28.821 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2019-03-04 20:17:28.849 [main] INFO  a00123456.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2019-03-04 20:17:28.849 [main] INFO  a00123456.CustomerDaoTester - 2
+2019-03-04 20:17:28.850 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2019-03-04 20:17:28.866 [main] INFO  a00123456.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2019-03-04 20:17:28.867 [main] INFO  a00123456.CustomerDaoTester - 3
+2019-03-04 20:17:28.867 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2019-03-04 20:17:28.884 [main] INFO  a00123456.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2019-03-04 20:17:28.885 [main] INFO  a00123456.CustomerDaoTester - 4
+2019-03-04 20:17:28.886 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2019-03-04 20:17:28.907 [main] INFO  a00123456.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2019-03-04 20:17:28.907 [main] INFO  a00123456.CustomerDaoTester - 5
+2019-03-04 20:17:28.908 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2019-03-04 20:17:28.924 [main] INFO  a00123456.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2019-03-04 20:17:28.942 [main] INFO  a00123456.CustomerDaoTester - 5
+2019-03-04 20:17:28.943 [main] INFO  a00123456.Lab7 - End: 2019-03-05T04:17:28.943247Z
+2019-03-04 20:17:28.944 [main] INFO  a00123456.Lab7 - Duration: 1995 ms

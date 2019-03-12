@@ -1,0 +1,78 @@
+2019-03-04 20:21:24.569 [main] INFO  a00123456.Lab7 - Start: 2019-03-05T04:21:23.830089Z
+2019-03-04 20:21:24.576 [main] DEBUG a00123456.db.Database - Loading database properties from db.properties
+2019-03-04 20:21:24.578 [main] DEBUG a00123456.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2019-03-04 20:21:24.704 [main] DEBUG a00123456.db.Database - Driver loaded
+2019-03-04 20:21:24.704 [main] DEBUG a00123456.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2019-03-04 20:21:24.704 [main] DEBUG a00123456.db.Database - DB USER=javastudent
+2019-03-04 20:21:24.705 [main] DEBUG a00123456.db.Database - DB URL=compjava
+2019-03-04 20:21:25.204 [main] DEBUG a00123456.db.Database - Database connected
+2019-03-04 20:21:25.506 [main] DEBUG a00123456.db.Database - Found the target table named: A00123456_Customers
+2019-03-04 20:21:25.588 [main] DEBUG a00123456.db.Database - Found the target table named: A00123456_Customers
+2019-03-04 20:21:25.656 [main] DEBUG a00123456.db.Database - Found the target table named: A00123456_Customers
+2019-03-04 20:21:25.659 [main] DEBUG a00123456.db.Dao - drop table A00123456_Customers
+2019-03-04 20:21:25.683 [main] DEBUG a00123456.data.customer.CustomerDao - Creating database table A00123456_Customers
+2019-03-04 20:21:25.685 [main] DEBUG a00123456.db.Dao - CREATE TABLE A00123456_Customers(id BIGINT, firstName VARCHAR(20), lastName VARCHAR(20), street VARCHAR(40), city VARCHAR(20), postalCode VARCHAR(6), phone VARCHAR(10), emailAddress VARCHAR(40), joinedDate DATETIME, PRIMARY KEY (id))
+2019-03-04 20:21:25.704 [main] DEBUG a00123456.data.customer.CustomerDao - Inserting the customers
+2019-03-04 20:21:25.719 [main] DEBUG a00123456.db.Dao - INSERT INTO A00123456_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2019-03-04 20:21:25.762 [main] DEBUG a00123456.data.customer.CustomerDao - Adding Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22] was unsuccessful
+2019-03-04 20:21:25.763 [main] DEBUG a00123456.db.Dao - INSERT INTO A00123456_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2019-03-04 20:21:25.781 [main] DEBUG a00123456.data.customer.CustomerDao - Adding Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28] was unsuccessful
+2019-03-04 20:21:25.782 [main] DEBUG a00123456.db.Dao - INSERT INTO A00123456_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2019-03-04 20:21:25.805 [main] DEBUG a00123456.data.customer.CustomerDao - Adding Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12] was unsuccessful
+2019-03-04 20:21:25.806 [main] DEBUG a00123456.db.Dao - INSERT INTO A00123456_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2019-03-04 20:21:25.826 [main] DEBUG a00123456.data.customer.CustomerDao - Adding Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03] was unsuccessful
+2019-03-04 20:21:25.827 [main] DEBUG a00123456.db.Dao - INSERT INTO A00123456_Customers values(?, ?, ?, ?, ?, ?, ?, ?, ?)
+2019-03-04 20:21:25.848 [main] DEBUG a00123456.data.customer.CustomerDao - Adding Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01] was unsuccessful
+2019-03-04 20:21:25.849 [main] INFO  a00123456.CustomerDaoTester - Getting the customer IDs
+2019-03-04 20:21:25.849 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2019-03-04 20:21:25.867 [main] DEBUG a00123456.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2019-03-04 20:21:25.868 [main] INFO  a00123456.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2019-03-04 20:21:25.869 [main] INFO  a00123456.CustomerDaoTester - 1
+2019-03-04 20:21:25.869 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2019-03-04 20:21:25.891 [main] INFO  a00123456.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2019-03-04 20:21:25.891 [main] INFO  a00123456.CustomerDaoTester - 2
+2019-03-04 20:21:25.892 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2019-03-04 20:21:25.908 [main] INFO  a00123456.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2019-03-04 20:21:25.909 [main] INFO  a00123456.CustomerDaoTester - 3
+2019-03-04 20:21:25.910 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2019-03-04 20:21:25.929 [main] INFO  a00123456.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2019-03-04 20:21:25.929 [main] INFO  a00123456.CustomerDaoTester - 4
+2019-03-04 20:21:25.930 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2019-03-04 20:21:25.947 [main] INFO  a00123456.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2019-03-04 20:21:25.948 [main] INFO  a00123456.CustomerDaoTester - 5
+2019-03-04 20:21:25.948 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2019-03-04 20:21:25.968 [main] INFO  a00123456.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2019-03-04 20:21:25.985 [main] INFO  a00123456.CustomerDaoTester - 5
+2019-03-04 20:21:25.986 [main] INFO  a00123456.Lab7 - End: 2019-03-05T04:21:25.986341Z
+2019-03-04 20:21:25.987 [main] INFO  a00123456.Lab7 - Duration: 2156 ms
+2019-03-04 20:21:30.087 [main] INFO  a00123456.Lab7 - Start: 2019-03-05T04:21:29.349511Z
+2019-03-04 20:21:30.092 [main] DEBUG a00123456.db.Database - Loading database properties from db.properties
+2019-03-04 20:21:30.094 [main] DEBUG a00123456.db.Database - com.microsoft.sqlserver.jdbc.SQLServerDriver
+2019-03-04 20:21:30.219 [main] DEBUG a00123456.db.Database - Driver loaded
+2019-03-04 20:21:30.220 [main] DEBUG a00123456.db.Database - DB URL=jdbc:sqlserver://Beangrinder.bcit.ca
+2019-03-04 20:21:30.220 [main] DEBUG a00123456.db.Database - DB USER=javastudent
+2019-03-04 20:21:30.221 [main] DEBUG a00123456.db.Database - DB URL=compjava
+2019-03-04 20:21:30.733 [main] DEBUG a00123456.db.Database - Database connected
+2019-03-04 20:21:31.030 [main] DEBUG a00123456.db.Database - Found the target table named: A00123456_Customers
+2019-03-04 20:21:31.045 [main] INFO  a00123456.CustomerDaoTester - Getting the customer IDs
+2019-03-04 20:21:31.047 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT id FROM A00123456_Customers
+2019-03-04 20:21:31.064 [main] DEBUG a00123456.data.customer.CustomerDao - Loaded 5 customer IDs from the database
+2019-03-04 20:21:31.064 [main] INFO  a00123456.CustomerDaoTester - Customer IDs: [1, 2, 3, 4, 5]
+2019-03-04 20:21:31.065 [main] INFO  a00123456.CustomerDaoTester - 1
+2019-03-04 20:21:31.066 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 1
+2019-03-04 20:21:31.095 [main] INFO  a00123456.CustomerDaoTester - Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J5E6, phone=6044335004, emailAddress=fredfish@imperial.net, joinedDate=2008-03-22]
+2019-03-04 20:21:31.096 [main] INFO  a00123456.CustomerDaoTester - 2
+2019-03-04 20:21:31.096 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 2
+2019-03-04 20:21:31.118 [main] INFO  a00123456.CustomerDaoTester - Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N4C6, phone=6048760182, emailAddress=laurieeenash@modern.com, joinedDate=2014-08-28]
+2019-03-04 20:21:31.118 [main] INFO  a00123456.CustomerDaoTester - 3
+2019-03-04 20:21:31.119 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 3
+2019-03-04 20:21:31.135 [main] INFO  a00123456.CustomerDaoTester - Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T2T8, phone=6045884988, emailAddress=cwash@daytona.net, joinedDate=2011-07-12]
+2019-03-04 20:21:31.136 [main] INFO  a00123456.CustomerDaoTester - 4
+2019-03-04 20:21:31.136 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 4
+2019-03-04 20:21:31.155 [main] INFO  a00123456.CustomerDaoTester - Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V2S9, phone=6042762552, emailAddress=priceizrite@pacific.com, joinedDate=2015-10-03]
+2019-03-04 20:21:31.155 [main] INFO  a00123456.CustomerDaoTester - 5
+2019-03-04 20:21:31.156 [main] DEBUG a00123456.data.customer.CustomerDao - SELECT * FROM A00123456_Customers WHERE id = 5
+2019-03-04 20:21:31.172 [main] INFO  a00123456.CustomerDaoTester - Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C3V9, phone=6042931022, emailAddress=mchan@hcenter.com, joinedDate=2010-04-01]
+2019-03-04 20:21:31.188 [main] INFO  a00123456.CustomerDaoTester - 5
+2019-03-04 20:21:31.189 [main] INFO  a00123456.Lab7 - End: 2019-03-05T04:21:31.189113Z
+2019-03-04 20:21:31.189 [main] INFO  a00123456.Lab7 - Duration: 1839 ms
